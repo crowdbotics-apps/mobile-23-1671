@@ -9,7 +9,7 @@ const mobile23API = axios.create({
   baseURL: "https://mobile-23-1671.herokuapp.com/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
-function newplugin231_get__read(new_param) {
+function newplugin231_get__read() {
   return newPlugin231.get(`/`)
 }
 function api_v1_customtext_list() {
